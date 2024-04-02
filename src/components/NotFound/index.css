@@ -1,0 +1,19 @@
+.not-found-img {
+  width: 280px;
+  height: 350px;
+}
+.heading {
+  font-size: 35px;
+  color: #000000;
+}
+.description {
+  font-size: 18px;
+  color: #000000;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: roboto;
+}

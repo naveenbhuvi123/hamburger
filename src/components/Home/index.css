@@ -1,0 +1,27 @@
+.route-container {
+  background-size: 100vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+@media (min-width: 456px) {
+  .home-img {
+    width: 450px;
+    height: 450px;
+  }
+  .home-img-1 {
+    display: none;
+  }
+}
+
+@media (max-width: 456px) {
+  .home-img-1 {
+    width: 650px;
+    height: 550px;
+  }
+  .home-img {
+    display: none;
+  }
+}
